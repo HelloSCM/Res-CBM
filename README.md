@@ -58,3 +58,16 @@ python train.py --task discovery \
                 --epochs 20 --init_lr 0.001 --decay_step 3 --decay_rate 0.5 --init_lr_ 0.01 --decay_step_ 3 --decay_rate_ 0.5 \
                 --res_dim 10 --sim_reg 0.1 --candidate_num 5
 ```
+
+## Citation
+If you find this code useful, please consider citing our paper:
+```
+@InProceedings{Shang_2024_CVPR,
+    author    = {Shang, Chenming and Zhou, Shiji and Zhang, Hengyuan and Ni, Xinzhe and Yang, Yujiu and Wang, Yuwang},
+    title     = {Incremental Residual Concept Bottleneck Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {11030-11040}
+}
+```
